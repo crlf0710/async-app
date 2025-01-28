@@ -1,0 +1,11 @@
+[workspace]
+members = ["async-app-macros"]
+
+[package]
+name = "async-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-app-macros = {version = "0.1.0", path = "async-app-macros"}
+fragile = "2"
