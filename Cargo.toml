@@ -5,6 +5,13 @@ members = ["async-app-macros"]
 name = "async-app"
 version = "0.1.0"
 edition = "2021"
+authors = ["Charles Lew <crlf0710@gmail.com>"]
+description = "Provides ergonomic approach to implement applications spawning event loops"
+homepage = "https://github.com/crlf0710/async-app"
+keywords = ["async-main", "events"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/crlf0710/async-app"
 
 [dependencies]
 async-app-macros = {version = "0.1.0", path = "async-app-macros"}

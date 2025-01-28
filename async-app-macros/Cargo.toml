@@ -2,6 +2,12 @@
 name = "async-app-macros"
 version = "0.1.0"
 edition = "2021"
+authors = ["Charles Lew <crlf0710@gmail.com>"]
+description = "Provides ergonomic approach to implement applications spawning event loops"
+homepage = "https://github.com/crlf0710/async-app"
+keywords = ["async-main", "events"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/crlf0710/async-app"
 
 [lib]
 proc-macro = true
